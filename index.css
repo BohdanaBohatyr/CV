@@ -1,0 +1,60 @@
+
+body {
+    margin-left: 25px;
+    max-width: 100%;
+}
+.row {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+img {
+    width: 200px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 55%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+form {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+}
+
+input {
+    text-align: center;
+}
+
+#request {
+    padding: 15px 10px 15px 10px;
+}
+
+
+.row-2 {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    position: right;
+}
+h2 {
+    background: linear-gradient(to right, rgb(140, 140, 232), white) ;
+    width: 400px;
+    color: white;
+    text-shadow: 1px 0 10px rgb(27, 26, 26); 
+    font-family: 'Staatliches', cursive;
+    padding: 5px;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+}
+
+.about {
+    width: 25%;
+    padding: 15px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
